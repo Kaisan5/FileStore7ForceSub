@@ -95,7 +95,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL_5 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL_5}")
                 self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Stelleron_Hunter for support")
                 sys.exit()
-         if FORCE_SUB_CHANNEL_6:
+        if FORCE_SUB_CHANNEL_6:
             try:
                 link = (await self.get_chat(FORCE_SUB_CHANNEL_6)).invite_link
                 if not link:
@@ -108,7 +108,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL_6 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL_6}")
                 self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Stelleron_Hunter for support")
                 sys.exit()
-         if FORCE_SUB_CHANNEL_7:
+        if FORCE_SUB_CHANNEL_7:
             try:
                 link = (await self.get_chat(FORCE_SUB_CHANNEL_7)).invite_link
                 if not link:
